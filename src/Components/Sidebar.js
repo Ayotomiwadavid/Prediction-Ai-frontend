@@ -32,7 +32,7 @@ const Sidebar = () => {
           {menuItems.map((item, index) => (
             <Link
               key={index}
-              to={item.label === "Bet Now" ? "/betting" : "#"}
+              to={`${item.label.replace(/\s+/g, "").toLowerCase()}`}
               className={`flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer 
                 ${item.active ? "bg-purple-600 text-white"
                   : "text-gray-300 hover:bg-gray-800"}`}
