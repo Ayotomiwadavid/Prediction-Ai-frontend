@@ -4,6 +4,7 @@ import Register from './pages/Register';
 import Betting from './pages/Betting';
 import ContactUs from './pages/ContactUs';
 import Calculator from './pages/Calculator';
+import Faq from './pages/Faq';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/register" element={<Register />} />
         <Route path="/calculators" element={<Calculator />} />
+        <Route path="/faqs" element={<Faq />} />
       </Routes>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Star, Users, MessageCircle, Phone, DollarSignIcon, CircleGauge, CalculatorIcon } from "lucide-react"
+import { Star, Users, MessageCircle, Phone, DollarSignIcon, CircleGauge, CalculatorIcon, MessageCircleQuestionMark } from "lucide-react"
 import { Link } from 'react-router'
 
 const Sidebar = () => {
@@ -11,6 +11,7 @@ const Sidebar = () => {
     { icon: Phone, label: "Contact Us", active: false },
     { icon: CircleGauge, label: "Help & Resources", active: false },
     { icon: CalculatorIcon, label: "Calculators", active: false },
+    { icon: MessageCircleQuestionMark, label: "FAQS", active: false },
   ]
 
   return (
