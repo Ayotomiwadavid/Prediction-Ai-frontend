@@ -5,6 +5,7 @@ import Betting from './pages/Betting';
 import ContactUs from './pages/ContactUs';
 import Calculator from './pages/Calculator';
 import Faq from './pages/Faq';
+import AiSportPicks from './pages/AiSportPicks';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/calculators" element={<Calculator />} />
         <Route path="/faqs" element={<Faq />} />
+        <Routes path="/aisportpicks" element={<AiSportPicks />} />
       </Routes>
   );
 }
