@@ -16,7 +16,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/calculators" element={<Calculator />} />
         <Route path="/faqs" element={<Faq />} />
-        <Routes path="/aisportpicks" element={<AiSportPicks />} />
+        <Route path="/aisportpicks" element={<AiSportPicks />} />
       </Routes>
   );
 }
